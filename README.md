@@ -52,6 +52,24 @@ Dateityp `.xlsx`, `.xls` oder `.csv`, gelesen wird das erste Tabellenblatt. Die 
 
 Hinweis: Raumnummern mit führenden Nullen (z. B. `055`) müssen in Excel als Text gespeichert sein.
 
+## Änderungen
+
+### Version 1.3 (23.10.2026)
+- **Befristung prüfen:** Gebinde mit Eintrag in der Spalte `Befristung` (auch `Ablaufdatum`, `Verfallsdatum`, `MHD`) werden beim Scannen geprüft. Die App meldet „Abgelaufen" (rot) oder „Läuft innerhalb eines Jahres ab" (orange), optisch und per Ansage.
+- **Abgleich:** neue Liste „Befristung abgelaufen oder endet binnen 12 Monaten".
+- **Vibration** bei jedem erkannten Code, mit unterschiedlichem Muster je nach Ergebnis (nur Android, auf dem iPhone nicht möglich).
+- **CSV-Export:** zwei neue Spalten `Befristung` und `Ablauf`.
+- **Update-Hinweis:** Nach dem Update die Excel-Liste erneut hochladen, damit die Befristung geladen wird.
+
+### Version 1.2 (23.10.2026)
+- CSV-Export als Datei (Semikolon, Excel-tauglich), „Kopieren" bleibt erhalten.
+- „Fehlt" im Abgleich nur noch für den aktuellen Raum.
+
+### Version 1.1 (01.10.2026)
+- Versionsnummer im Kopf der App.
+- Sprachausgabe (Name, Id oder nur Warnungen), neues Layout mit sichtbarem Ergebnis über dem Kamerabild.
+- Zielrahmen, höhere Kameraauflösung und bessere Erkennung kleiner QR-Codes.
+
 ## Datenschutz
 
 - Dieses Repository enthält **nur den Programmcode**, keine Chemikalien- oder Personendaten.
