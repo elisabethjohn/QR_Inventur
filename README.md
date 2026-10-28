@@ -95,3 +95,7 @@ Hinweis: Raumnummern mit führenden Nullen (z. B. `055`) müssen in Excel als Te
 
 - [jsQR](https://github.com/cozmo/jsQR) (Apache-2.0), QR-Erkennung
 - [SheetJS Community Edition](https://github.com/SheetJS/sheetjs) 0.18.5 (Apache-2.0), Lesen von Excel-Dateien
+
+## Entstehung
+
+Diese App wurde im Oktober 2026 mit Unterstützung von Claude (KI-Assistent von Anthropic, Modell Claude Sonnet 5.5) entwickelt.
